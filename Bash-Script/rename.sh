@@ -1,4 +1,6 @@
-TE=`date +%Y-%m-%d`
+#!/bin/bash
+
+DATE=`date +%Y-%m-%d`
 echo "Please enter extension"
 
 
@@ -18,4 +20,5 @@ read  key
    fi
 
  echo "Renaming from $var1 to $var2"
+
 
