@@ -8,7 +8,7 @@ read  ext
 var1=mycat.$ext
 
 
-echo "Please enter prefix"
+echo "Please enter prefix (Press ENTER for $DATE)"
 read  key
 
    if [[ $key = "" ]]; then
